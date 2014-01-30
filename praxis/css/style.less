@@ -1,0 +1,324 @@
+// Hauptvariablen
+@color-main: #f24437;
+@color-main-text: #fff;
+@color-text: #000;
+@color-background: #fff;
+@color-footer: #3A3E4A;
+
+.button_normal{
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+  background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff');
+  background-color:#ffffff;
+  -webkit-border-top-left-radius:0px;
+  -moz-border-radius-topleft:0px;
+  border-top-left-radius:0px;
+  -webkit-border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  border-top-right-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  -moz-border-radius-bottomright:0px;
+  border-bottom-right-radius:0px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-bottom-left-radius:0px;
+  text-indent:0px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  color: @color-text;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:600;
+  font-style:normal;
+  height:30px;
+  line-height:30px;
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #ffffff;
+}
+
+.button_hover{
+  -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  box-shadow:inset 0px 1px 0px 0px #f5978e;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, @color-main), color-stop(1, @color-main) );
+  background:-moz-linear-gradient( center top, @color-main 5%, @color-main 100% );
+  background-color: @color-main;
+  -webkit-border-top-left-radius:0px;
+  -moz-border-radius-topleft:0px;
+  border-top-left-radius:0px;
+  -webkit-border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  border-top-right-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  -moz-border-radius-bottomright:0px;
+  border-bottom-right-radius:0px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-bottom-left-radius:0px;
+  text-indent:0px;
+  border:1px solid #d02718;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:600;
+  font-style:normal;
+  height:30px;
+  line-height:30px;
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #810e05;
+}
+
+.icon_style
+{
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000;
+}
+
+.icon
+{
+  background-color: @color-main;
+  color: @color-main-text;
+  padding: 5px;
+  width: 16px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 13px;
+}
+
+.distance_top
+{
+  height: 60px;
+  padding-top: 20px;
+}
+
+.distance_left(@add)
+{
+  padding-left: 5px + @add;
+}
+
+.link(@color)
+{
+  a:link
+  {
+    color:@color;
+    text-decoration:none;
+  }
+  a:visited
+  {
+    color:@color;
+    text-decoration:none;
+  }
+  a:focus
+  {
+    color:@color;
+    text-decoration:underline; }
+  a:hover
+  {
+    color:@color;
+    text-decoration:underline;
+  }
+  a:active
+  {
+    color:@color;
+    text-decoration:underline;
+  }
+}
+
+/************************/
+/*  Basic               */
+/************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+
+
+
+body, input, textarea
+{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.85em;
+  color: @color-text;
+  font-weight: 300;
+}
+
+header, nav, section, footer {
+  display: block;
+}
+
+/************************/
+/*  Structur            */
+/************************/
+
+#wrapper_site
+{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+section
+{
+  clear: both;
+  border-top: solid 1px #000;
+}
+
+
+/************************/
+/*  Header              */
+/************************/
+
+header
+{
+  .distance_top;
+  .distance_left(0);
+  float: left;
+}
+
+header h2{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+/************************/
+/*  Nav                 */
+/************************/
+
+nav
+{
+  float: left;
+  .distance_top;
+  .distance_left(0);
+}
+
+nav ul
+{
+
+}
+
+nav li
+{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+nav .button
+{
+  .button_normal;
+}
+
+nav a:hover
+{
+  .button_hover;
+}
+
+/************************/
+/*  Banner              */
+/************************/
+
+#banner
+{
+  background-color: @color-main;
+  .distance_top;
+  .distance_left(20);
+  vertical-align: middle;
+}
+
+#banner h1{
+  color: @color-main-text;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+
+/************************/
+/*  Footer              */
+/************************/
+
+footer
+{
+  clear: both;
+  background-color: @color-footer;
+  color: @color-main-text;
+  .distance_left(0);
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+footer li:before
+{
+  content: ' | ';
+}
+footer li:first-child:before
+{
+  content: '';
+}
+
+footer li
+{
+  display: inline-block;
+  font-size: 12px;
+  .link(@color-main-text);
+}
+
+/************************/
+/*  Content             */
+/************************/
+
+#content{
+  margin: 20px 0px 20px 0px;
+}
+
+
+#opening
+{
+  float: left;
+  .distance_left(20);
+}
+
+#contact
+{
+  float: right;
+  margin-right: 120px;
+}
+
+.maincolor{
+  color: @color-main;
+}
+
+
+.toggle
+{
+  cursor: pointer;
+}
+
+.togglecontent
+{
+  padding: 20px 0px;
+}
