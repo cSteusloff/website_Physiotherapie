@@ -36,12 +36,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Physiotherapie<br> am Gesundbrunnen-Center</a>
+            <a class="navbar-brand" href="#"><h2 id="physio"><span class="maincolor">Physiotherapie</span><br> <span class="grey_font">am Gesundbrunnen-Center</span></h2></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">
-                        <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Login</button>
+                        <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Startseite</button>
                     </a></li>
                 <li><a href="#">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
@@ -56,8 +56,8 @@
         </div>
     </div>
 
-  <div class="banner">
-            <h1>Willkommen</h1>
+  <div id="banner">
+            <h1 id="welcome">Willkommen!</h1>
  </div>
 
     <div class="row">
@@ -71,7 +71,7 @@
 
     <div class="row">
         <div class="col-lg-5">
-            <div class="panel panel-primary">
+            <div  id="hoursofopening" class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Öffnungszeiten</h3>
                 </div>
@@ -91,9 +91,9 @@
                     <h3 class="panel-title">Kontakt</h3>
                 </div>
                 <div class="panel-body">
-                    Behmstraße 23, 13357 Berlin<br>
-                    +49 30 49301316<br>
-                    info@physiotherapie-gesundbrunnen.de<br><br>
+                    <i class="fa fa-map-marker hex"></i>Behmstraße 23, 13357 Berlin<br>
+                    <i class="fa fa-phone hex"></i>+49 30 49301316<br>
+                    <i class="fa fa-envelope-o hex"></i>info@physiotherapie-gesundbrunnen.de<br><br>
                 </div>
             </div>
         </div>
