@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="bootstrap/css/style.css">
     <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
-    <!--    mobile Device like nativ app  -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!--    mobile Device like native app  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
 </head>
 <body>
@@ -58,13 +59,13 @@
 
   <div id="banner">
             <h1 id="welcome">Willkommen!</h1>
- </div>
+  </div>
 
     <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-6">
             <img src="praxis.png" class="img-responsive" alt="Praxis">
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
             <img src="empfang.png" class="img-responsive hidden-xs" alt="Praxis">
         </div>
     </div>

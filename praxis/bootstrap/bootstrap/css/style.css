@@ -178,11 +178,13 @@ video {
 }
 body,
 input,
-textarea {
+textarea,
+p,
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.85em;
+  /*line-height: 1.85em;*/
   color: #000000;
-  font-weight: 300;
+  /*font-weight: 300;*/
 }
 header,
 nav,
@@ -224,11 +226,12 @@ header h2 {
 .navbar-header{
 }
 .header h2{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
 }
 #physio{
     margin-left:30px;
+
 }
 
 /************************/
@@ -332,7 +335,7 @@ nav a:hover {
     border-top:solid;
     border-top-color:#666D7F;
     background-color: #ED594D;
- background-image: radial-gradient(top,#C84D46, #ED594D);
+    background-image: radial-gradient(top,#C84D46, #ED594D);
  
   height: 90px;
   padding-top: 30px;
