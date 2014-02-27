@@ -455,3 +455,8 @@ footer li a:active {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
 }
+
+#map_canvas{
+    height: 200px;
+    display: block;
+}

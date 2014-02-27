@@ -41,17 +41,17 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">
+                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/index.php">
                         <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Startseite</button>
                     </a></li>
-                <li><a href="#">
-                        <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
+                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/therapie.php"">
+                    <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
                     </a></li>
-                <li><a href="#">
-                        <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
+                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/praxis.php"">
+                    <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
                     </a></li>
-                <li><a href="#">
-                        <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Kontakt</button>
+                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/kontakt.php"">
+                    <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Kontakt</button>
                     </a></li>
             </ul>
         </div>
