@@ -58,7 +58,7 @@
     </div>
 
 	<div id="banner">
-        <h1 id="welcome">Praxis</h1>
+        <h1 class="bannertitle">Praxis</h1>
 	</div>
   
 	<div class="row">

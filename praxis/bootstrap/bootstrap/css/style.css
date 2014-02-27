@@ -213,40 +213,29 @@ section {
 /*  Header              */
 /************************/
 header {
+  display: block;
   height: 60px;
   padding-top: 20px;
-  padding-left: 5px;
   float: left;
 }
-header h2 {
-  margin: 0;
-  padding: 0;
+
+#physio {
   font-weight: 300;
-}
-.navbar-header{
-}
-.header h2{
-    font-size: 28px;
-    font-weight: 700;
-}
-#physio{
-    margin-left:30px;
-
+  padding-left: 35px;
 }
 
-/************************/
-/*  Nav                 */
-/************************/
 nav {
+  display:block;
   float: left;
   height: 60px;
-  padding-top: 20px;
-  padding-left: 5px;
+  padding-top: 30px;
 }
+
 nav li {
   display: inline-block;
   padding: 0px 10px;
 }
+
 nav .button {
   -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
   -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
@@ -333,26 +322,21 @@ nav a:hover {
 /************************/
 #banner {
     border-top:solid;
+	border-width: 1px;
     border-top-color:#666D7F;
     background-color: #ED594D;
     background-image: radial-gradient(top,#C84D46, #ED594D);
- 
-  height: 90px;
-  padding-top: 30px;
-  padding-left: 13%;
-    padding-bottom: 30px;
-  vertical-align: middle;
+  height: 90px; 
 }
+
 #banner h1 {
+  padding-top: 30px;
+  padding-left: 35px;
   color: #ffffff;
   letter-spacing: 1px;
   font-size: 30px;
 }
-.banner {
-    color: #ffffff;
-    padding: 10px 0px;
-    background-color: #ED594D;
-}
+    
 /************************/
 /*  Footer              */
 /************************/
