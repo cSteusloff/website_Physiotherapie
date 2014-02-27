@@ -28,7 +28,7 @@
 <body>
 
 
-<div class="container">
+<div class="container-fluid">
     <div class="header navbar-default" role="navigation">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -72,15 +72,17 @@
 
     <div class="row">
         <div class="col-lg-5">
-            <div  id="hoursofopening" class="panel panel-primary">
+            <div id="hoursofopening" class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Öffnungszeiten</h3>
                 </div>
                 <div class="panel-body">
-                    Montag - Mittwoch: 9:00-12:00 Uhr & 13:00 - 16:00 Uhr<br>
+                    Montag: 9:00-12:00 Uhr & 13:00 - 16:00 Uhr<br>
+                    Dienstag: 11:00 - 16:00 Uhr<br>
+                    Mittwoch: 9:00-14:00 Uhr<br>
                     Donnerstag: geschlossen<br>
                     Freitag: 9:00-12:00 Uhr<br>
-                    Samstag, Sonntag: geschlossen<br>
+
                 </div>
             </div>
         </div>
