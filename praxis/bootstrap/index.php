@@ -17,8 +17,8 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="bootstrap/css/style.css">
     <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -41,16 +41,16 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/index.php">
+                <li><a href="index.php">
                         <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Startseite</button>
                     </a></li>
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/therapie.php"">
+                <li><a href="therapie.php"">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
                     </a></li>
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/praxis.php"">
+                <li><a href="praxis.php"">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
                     </a></li>
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/kontakt.php"">
+                <li><a href="kontakt.php"">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Kontakt</button>
                     </a></li>
             </ul>
@@ -62,15 +62,15 @@
   </div>
 
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 pad-right-0">
             <img src="praxis.png" class="img-responsive" alt="Praxis">
-        </div>
-        <div class="col-md-6">
+        </div><div class="col-md-6 pad-left-0">
             <img src="empfang.png" class="img-responsive hidden-xs" alt="Praxis">
         </div>
     </div>
 
     <div class="row">
+        <div class="col-lg-1 hidden-xs"></div>
         <div class="col-lg-5">
             <div id="hoursofopening" class="panel panel-primary">
                 <div class="panel-heading">
@@ -86,20 +86,20 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-2 visible-lg">
-        </div>
+
         <div class="col-lg-5">
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Kontakt</h3>
                 </div>
                 <div class="panel-body">
-                    <i class="fa fa-map-marker hex"></i>Behmstraße 23, 13357 Berlin<br>
-                    <i class="fa fa-phone hex"></i>+49 30 49301316<br>
-                    <i class="fa fa-envelope-o hex"></i>info@physiotherapie-gesundbrunnen.de<br><br>
+                    <i class="fa fa-map-marker circle"></i>Behmstraße 23, 13357 Berlin<br>
+                    <i class="fa fa-phone circle"></i>+49 30 49301316<br>
+                    <i class="fa fa-envelope-o circle"></i>info@physiotherapie-gesundbrunnen.de<br><br><br>
                 </div>
             </div>
         </div>
+        <div class="col-lg-1 hidden-xs"></div>
     </div>
 
 

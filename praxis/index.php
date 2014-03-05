@@ -50,10 +50,10 @@
 
     <nav>
         <ul class="nav_container">
-            <li><a href="" class="button">Startseite</a></li>
-            <li><a href="" class="button">Therapie</a></li>
-            <li><a href="" class="button">Praxis</a></li>
-            <li><a href="" class="button">Kontakt</a></li>
+            <li><a href="" class="btn-primary">Startseite</a></li>
+            <li><a href="" class="btn-primary">Therapie</a></li>
+            <li><a href="" class="btn-primary">Praxis</a></li>
+            <li><a href="" class="btn-primary">Kontakt</a></li>
         </ul>
     </nav>
 <section>
@@ -91,7 +91,7 @@
         <li><a class="toggle">Impressum</a></li>
         <li>Kontakt</li>
     </ul>
-    <div class="togglecontent">
+    <div>
         Physiotherapie am Gesundbrunnen-Center<br>
         Behmstraße 23<br>
         13357 Berlin<br>
