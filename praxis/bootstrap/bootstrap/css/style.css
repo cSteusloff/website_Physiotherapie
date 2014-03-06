@@ -495,4 +495,15 @@ footer li a:active {
 #map_canvas{
     height: 200px;
     display: block;
+    margin-bottom: 35px;
+}
+
+.form-control:focus {
+    border-color: #ED594D;
+    outline: 0;
+    box-shadow: none;
+}
+
+.panel{
+    border: 0;
 }

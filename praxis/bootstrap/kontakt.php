@@ -17,8 +17,8 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="bootstrap/css/style.css">
     <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -41,16 +41,16 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/index.php">
+                <li><a href="index.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Startseite</button>
                     </a></li>
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/therapie.php"">
+                <li><a href="therapie.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
                     </a></li>
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/praxis.php"">
+                <li><a href="praxis.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
                     </a></li>
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/kontakt.php"">
+                <li><a href="kontakt.php">
                         <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Kontakt</button>
                     </a></li>
             </ul>
@@ -68,15 +68,48 @@
     </div>
 
     <div class="row">
-        <div class="col-md-8">
-            <div class="panel-heading">Kontaktformular</div>
-            <div class="panel-body">Formularfelder</div>
+        <div class="col-lg-1 hidden-xs"></div>
+        <div class="col-lg-5">
+            <div id="hoursofopening" class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Kontaktformular</h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="input_name">Ihr Name</label>
+                            <input type="text" class="form-control input-sm" id="input_name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="input_mail">Ihre Mailadresse</label>
+                            <input type="email" class="form-control input-sm" id="input_mail" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="input_name">Ihre Nachricht</label>
+                            <textarea id="input_message" class="form-control input-sm" rows="3" placeholder="Nachricht"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary narbar-btn">Senden</button>
+                    </form>
+
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-            <div class="panel-heading">Kontakt</div>
-            <div class="panel-body">Kontaktdaten</div>
+
+        <div class="col-lg-5">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Kontakt</h3>
+                </div>
+                <div class="panel-body">
+                    <i class="fa fa-map-marker circle"></i>Behmstraße 23, 13357 Berlin<br><br><br>
+                    <i class="fa fa-phone circle"></i>+49 30 49301316<br><br><br>
+                    <i class="fa fa-envelope-o circle"></i>info@physiotherapie-gesundbrunnen.de<br><br><br>
+                </div>
+            </div>
         </div>
+        <div class="col-lg-1 hidden-xs"></div>
     </div>
+
 
     <footer>
         <ul id="info">
