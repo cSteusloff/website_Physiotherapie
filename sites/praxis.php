@@ -17,9 +17,9 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--    mobile Device like native app  -->
@@ -62,14 +62,14 @@
 	</div>
   
 	<div class="row">
-		<div class="col-xs-12 col-sm-4">
-			<img src="praxis.png" class="img-responsive" alt="Praxis">
+		<div class="col-xs-12 col-sm-4 pad-right-0">
+			<img src="../picture/praxis.png" class="img-responsive" alt="Praxis">
 		</div>
-		<div class="col-xs-4">
-			<img src="empfang.png" class="img-responsive hidden-xs" alt="Praxis">
+		<div class="col-xs-4 pad-0">
+			<img src="../picture/empfang.png" class="img-responsive hidden-xs" alt="Praxis">
 		</div>
-		<div class="col-xs-4">
-			<img src="praxis.png" class="img-responsive hidden-xs" alt="Praxis">
+		<div class="col-xs-4 pad-left-0">
+			<img src="../picture/praxis.png" class="img-responsive hidden-xs" alt="Praxis">
 		</div>
 	<div>		
 
@@ -81,10 +81,19 @@
 				tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
 				vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
 				no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-				consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
-				dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
-				dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
-				ipsum dolor sit amet.
+				consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+				magna aliquyam erat, sed diam voluptua. <br><br> 
+				At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no 
+				sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+				consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+				magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
+				ea rebum. <br>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+				tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
+				vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+				no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+				consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+				magna aliquyam erat, sed diam voluptua.
 			</div>
 		</div>
 	</div>

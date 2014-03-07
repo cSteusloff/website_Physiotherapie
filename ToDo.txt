@@ -1,0 +1,7 @@
+-äußeren Rand weg (gibt Probleme mit den Bilder, z.B. bei der mobilen Ansicht)
+
+-Kontakttext auf der Startseite erst umbrechen, wenn auch Bild umgebrochen wird
+
+-Button auf Praxisseite ist blau?!
+
+-Bilder sollten sich automatisch vergrößern, so dass sie halbe Seite einnehmen

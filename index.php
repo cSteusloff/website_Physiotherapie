@@ -17,10 +17,10 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="bootstrap/css/style.css">
-    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--    mobile Device like native app  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
@@ -62,10 +62,10 @@
   </div>
 
     <div class="row">
-        <div class="col-md-6 pad-right-0">
-            <img src="praxis.png" class="img-responsive" alt="Praxis">
-        </div><div class="col-md-6 pad-left-0">
-            <img src="empfang.png" class="img-responsive hidden-xs" alt="Praxis">
+        <div class="col-xs-12 col-md-6 pad-right-0">
+            <img src="picture/praxis.png" class="img-responsive" alt="Praxis">
+        </div><div class="col-xs-12 col-md-6 pad-left-0">
+            <img src="picture/empfang.png" class="img-responsive hidden-xs" alt="Praxis">
         </div>
     </div>
 
