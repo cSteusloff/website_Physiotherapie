@@ -17,9 +17,9 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--    mobile Device like native app  -->
@@ -125,10 +125,10 @@
         </ul>
     </footer>
 </div>
-<script src="bootstrap/js/jquery.min.js"></script>
+<script src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="bootstrap/js/mapControl.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/mapControl.js"></script>
 
 </body>
 </html>
