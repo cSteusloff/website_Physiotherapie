@@ -102,8 +102,8 @@
                 </div>
                 <div class="panel-body">
                     <i class="fa fa-map-marker circle"></i>Behmstraße 23, 13357 Berlin<br><br><br>
-                    <i class="fa fa-phone circle"></i>+49 30 49301316<br><br><br>
-                    <i class="fa fa-envelope-o circle"></i>info@physiotherapie-gesundbrunnen.de<br><br><br>
+                    <i class="fa fa-phone circle"></i>(030) 49 301 316<br><br><br>
+                    <i class="fa fa-envelope-o circle"></i>physiotherapie-gesundbrunnen@web.de<br><br><br>
                 </div>
             </div>
         </div>

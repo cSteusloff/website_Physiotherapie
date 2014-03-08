@@ -77,12 +77,8 @@
                     <h3 class="panel-title">Öffnungszeiten</h3>
                 </div>
                 <div class="panel-body">
-                    Montag: 9:00-12:00 Uhr & 13:00 - 16:00 Uhr<br>
-                    Dienstag: 11:00 - 16:00 Uhr<br>
-                    Mittwoch: 9:00-14:00 Uhr<br>
-                    Donnerstag: geschlossen<br>
-                    Freitag: 9:00-12:00 Uhr<br>
-
+                    Montag - Freitag: 9:00 - 19:00<br><br><br>
+                    Hausbesuche nach Vereinbarung
                 </div>
             </div>
         </div>
@@ -93,9 +89,9 @@
                     <h3 class="panel-title">Kontakt</h3>
                 </div>
                 <div class="panel-body">
-                    <i class="fa fa-map-marker circle"></i>Behmstraße 23, 13357 Berlin<br>
-                    <i class="fa fa-phone circle"></i>+49 30 49301316<br>
-                    <i class="fa fa-envelope-o circle"></i>info@physiotherapie-gesundbrunnen.de<br><br><br>
+                    <i class="fa fa-map-marker circle"></i>Behmstraße 23, 13357 Berlin<br><br><br>
+                    <i class="fa fa-phone circle"></i>(030) 49 301 316<br><br><br>
+                    <i class="fa fa-envelope-o circle"></i>physiotherapie-gesundbrunnen@web.de<br><br><br>
                 </div>
             </div>
         </div>
