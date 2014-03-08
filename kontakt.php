@@ -17,10 +17,10 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/bootstrap-theme.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--    mobile Device like native app  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
@@ -44,10 +44,10 @@
                 <li><a href="index.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Startseite</button>
                     </a></li>
-                <li><a href="therapie.php">
+                <li><a href="sites/therapie.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
                     </a></li>
-                <li><a href="praxis.php">
+                <li><a href="sites/praxis.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
                     </a></li>
                 <li><a href="kontakt.php">
@@ -125,10 +125,10 @@
         </ul>
     </footer>
 </div>
-<script src="../js/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/mapControl.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mapControl.js"></script>
 
 </body>
 </html>

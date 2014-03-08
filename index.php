@@ -44,10 +44,10 @@
                 <li><a href="index.php">
                         <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Startseite</button>
                     </a></li>
-                <li><a href="therapie.php"">
+                <li><a href="sites/therapie.php"">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
                     </a></li>
-                <li><a href="praxis.php"">
+                <li><a href="sites/praxis.php"">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
                     </a></li>
                 <li><a href="kontakt.php"">
