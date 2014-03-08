@@ -37,7 +37,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><h2 id="physio"><span class="maincolor">Physiotherapie</span><br> <span
+            <a class="navbar-brand" href="../index.php"><h2 id="physio"><span class="maincolor">Physiotherapie</span><br> <span
                         class="grey_font">am Gesundbrunnen-Center</span></h2></a>
         </div>
         <div class="collapse navbar-collapse">
@@ -93,7 +93,7 @@
                     Sollten Sie nicht über die notwendige Mobilität verfügen, bieten wir Behandlungen auch gern
                     im Rahmen von Hausbesuchen an. Sie benötigen dazu lediglich eine ärztliche Verordnung für
                     Hausbesuche.
-                    <br><br>
+
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
     </div>
 </div>
 
-
+<br><br>
 <footer>
     <ul id="info">
         <li>Physiotherapie am Gesundbrunnen-Center</li>

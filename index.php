@@ -37,7 +37,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><h2 id="physio"><span class="maincolor">Physiotherapie</span><br> <span class="grey_font">am Gesundbrunnen-Center</span></h2></a>
+            <a class="navbar-brand" href=""><h2 id="physio"><span class="maincolor">Physiotherapie</span><br> <span
+                        class="grey_font">am Gesundbrunnen-Center</span></h2></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -45,45 +46,47 @@
                         <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Startseite</button>
                     </a></li>
                 <li><a href="sites/therapie.php">
-                    <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
+                        <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
                     </a></li>
                 <li><a href="sites/praxis.php">
-                    <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
+                        <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
                     </a></li>
                 <li><a href="sites/kontakt.php">
-                    <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Kontakt</button>
+                        <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Kontakt</button>
                     </a></li>
             </ul>
         </div>
     </div>
 
-  <div id="banner">
-            <h1 id="welcome">Willkommen!</h1>
-  </div>
+    <div id="banner">
+        <h1 id="welcome">Willkommen!</h1>
+    </div>
 
     <div class="row">
         <div class="col-xs-12 col-md-6 pad-right-0">
             <img src="picture/praxis.png" class="img-responsive" alt="Praxis">
-        </div><div class="col-xs-12 col-md-6 pad-left-0">
+        </div>
+        <div class="col-xs-12 col-md-6 pad-left-0">
             <img src="picture/empfang.png" class="img-responsive hidden-xs" alt="Praxis">
         </div>
     </div>
+    <br>
 
     <div class="row">
         <div class="col-lg-1 hidden-xs"></div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-xs-12">
             <div id="hoursofopening" class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Öffnungszeiten</h3>
                 </div>
                 <div class="panel-body">
-                    Montag - Freitag: 9:00 - 19:00<br><br><br>
+                    Montag - Freitag: 9:00 - 19:00 Uhr<br><br><br>
                     Hausbesuche nach Vereinbarung
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-xs-12">
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Kontakt</h3>

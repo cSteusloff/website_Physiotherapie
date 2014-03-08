@@ -37,7 +37,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><h2 id="physio"><span class="maincolor">Physiotherapie</span><br> <span class="grey_font">am Gesundbrunnen-Center</span></h2></a>
+            <a class="navbar-brand" href="../index.php"><h2 id="physio"><span class="maincolor">Physiotherapie</span><br> <span class="grey_font">am Gesundbrunnen-Center</span></h2></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -66,7 +66,7 @@
             <div id="map_canvas" class="span12"></div>
         </div>
     </div>
-
+    <br><br>
     <div class="row">
         <div class="col-lg-1 hidden-xs"></div>
         <div class="col-lg-5">
@@ -109,7 +109,7 @@
         </div>
         <div class="col-lg-1 hidden-xs"></div>
     </div>
-
+    <br><br>
 
     <footer>
         <ul id="info">
