@@ -1,3 +1,5 @@
+-Schriftgröße größer machen - ich hab den Footer in der Mitte des Bildschirms
+
 -äußeren Rand weg (gibt Probleme mit den Bilder, z.B. bei der mobilen Ansicht)
 
 -Kontakttext auf der Startseite erst umbrechen, wenn auch Bild umgebrochen wird

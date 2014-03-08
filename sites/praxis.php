@@ -75,25 +75,29 @@
 
 	<div class="row">
 		<div class="col-xs-12">
-			<div class="panel-heading">Unsere Räumlichkeiten<div/>
-			<div class="panel-body">
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-				tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
-				vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-				no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-				consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-				magna aliquyam erat, sed diam voluptua. <br><br> 
-				At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no 
-				sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-				consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-				magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
-				ea rebum. <br>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-				tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
-				vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-				no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-				consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-				magna aliquyam erat, sed diam voluptua.
+			<div id="praxis" class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">Unsere Räumlichkeiten</h3>
+				</div>
+				<div class="panel-body">
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+					tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
+					vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+					no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+					consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+					magna aliquyam erat, sed diam voluptua. <br><br> 
+					At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no 
+					sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+					consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+					magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
+					ea rebum. <br>
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+					tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
+					vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+					no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+					consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+					magna aliquyam erat, sed diam voluptua.
+				</div>
 			</div>
 		</div>
 	</div>

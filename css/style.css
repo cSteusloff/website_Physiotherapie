@@ -200,6 +200,7 @@ footer li a:active {
 .panel-primary{
     border: none;
     color:#3A3E4A;
+	margin: 0px 10px;
 }
 .panel-heading{
     border: none;
@@ -214,6 +215,10 @@ footer li a:active {
     font-size:12px;
     font-weight:600;
     color:#3A3E4A;
+}
+
+.panel-group {
+	margin: 40px 10px;
 }
 
 .circle {

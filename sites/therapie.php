@@ -69,7 +69,7 @@
 				  <div class="panel-heading">
 					<h4 class="panel-title">
 						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionLeft" href="#collapseOne">
-						  Collapsible Group Item #1
+						  Massage
 						</a>
 					<h4>
 				  </div>
@@ -83,7 +83,7 @@
 				  <div class="panel-heading">
 					<h4 class="panel-title">
 						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionLeft" href="#collapseTwo">
-						  Collapsible Group Item #2
+						  Heißlufttherapie
 						</a>
 					<h4>
 				  </div>
@@ -97,7 +97,7 @@
 				  <div class="panel-heading">
 					<h4 class="panel-title">
 						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionLeft" href="#collapseThree">
-						  Collapsible Group Item #3
+						  Fango
 						</a>
 					<h4>
 				  </div>
@@ -111,7 +111,7 @@
 		</div>
 		
 		<div class="col-md-2 hidden-xs" style="text-align: center;">
-			<img src="../picture/stehend-mit-Ball.png" height='300' text>
+			<img src="../picture/stehendMitBall.png">
 		</div>
 		
 		<div class="col-xs-6 col-md-4">
@@ -120,7 +120,7 @@
 					  <div class="panel-heading">
 						<h4 class="panel-title">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionRight" href="#collapseOneR">
-							  Collapsible Group Item #1
+							  Dolo-Taping
 							</a>
 						<h4>
 					  </div>
@@ -134,7 +134,7 @@
 					  <div class="panel-heading">
 						<h4 class="panel-title">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionRight" href="#collapseTwoR">
-							  Collapsible Group Item #2
+							  Shiatsu
 							</a>
 						<h4>
 					  </div>
@@ -148,7 +148,7 @@
 					  <div class="panel-heading">
 						<h4 class="panel-title">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionRight" href="#collapseThreeR">
-							  Collapsible Group Item #3
+							  Lymphdrainage
 							</a>
 						<h4>
 					  </div>
