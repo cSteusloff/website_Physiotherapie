@@ -1,9 +1,9 @@
--Schriftgröße größer machen - ich hab den Footer in der Mitte des Bildschirms
+-Schriftgroesse groesser machen - ich hab den Footer in der Mitte des Bildschirms
 
--äußeren Rand weg (gibt Probleme mit den Bilder, z.B. bei der mobilen Ansicht)
+-aeusseren Rand weg (gibt Probleme mit den Bilder, z.B. bei der mobilen Ansicht)
 
 -Kontakttext auf der Startseite erst umbrechen, wenn auch Bild umgebrochen wird
 
--Button auf Praxisseite ist blau?!
+-Button auf Praxisseite ist blau?! ->erledigt (falsche css-Datei eingeladen)
 
--Bilder sollten sich automatisch vergrößern, so dass sie halbe Seite einnehmen
+-Bilder sollten sich automatisch vergroessern, so dass sie halbe Seite einnehmen

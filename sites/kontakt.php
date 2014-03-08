@@ -17,10 +17,10 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--    mobile Device like native app  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
@@ -41,13 +41,13 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php">
+                <li><a href="../index.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Startseite</button>
                     </a></li>
-                <li><a href="sites/therapie.php">
+                <li><a href="therapie.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
                     </a></li>
-                <li><a href="sites/praxis.php">
+                <li><a href="praxis.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
                     </a></li>
                 <li><a href="kontakt.php">
@@ -115,7 +115,7 @@
         <ul id="info">
             <li>Physiotherapie am Gesundbrunnen-Center</li>
             <li>Behmstraße 23, 13357 Berlin</li>
-            <li>Rita Seidler & Andrea Klonz</li>
+            <li>Tel. 030 49 301 316</li>
         </ul>
         <ul id="copyright">
             <li>&copy; 2014</li>
@@ -125,10 +125,10 @@
         </ul>
     </footer>
 </div>
-<script src="js/jquery.min.js"></script>
+<script src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/mapControl.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/mapControl.js"></script>
 
 </body>
 </html>

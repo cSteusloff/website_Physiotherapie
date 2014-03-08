@@ -17,8 +17,8 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -41,16 +41,16 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/index.php">
+                <li><a href="../index.php">
                         <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Startseite</button>
                     </a></li>
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/therapie.php"">
+                <li><a href="therapie.php">
                     <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Therapie</button>
                     </a></li>
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/praxis.php"">
+                <li><a href="praxis.php">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
                     </a></li>
-                <li><a href="/Physiotherapie/website_Physiotherapie/praxis/bootstrap/kontakt.php"">
+                <li><a href="kontakt.php">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Kontakt</button>
                     </a></li>
             </ul>
@@ -170,7 +170,7 @@
         <ul id="info">
             <li>Physiotherapie am Gesundbrunnen-Center</li>
             <li>Behmstraße 23, 13357 Berlin</li>
-            <li>Rita Seidler & Andrea Klonz</li>
+            <li>Tel. 030 49 301 316</li>
         </ul>
         <ul id="copyright">
             <li>&copy; 2014</li>

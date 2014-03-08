@@ -44,13 +44,13 @@
                 <li><a href="index.php">
                         <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Startseite</button>
                     </a></li>
-                <li><a href="sites/therapie.php"">
+                <li><a href="sites/therapie.php">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Therapie</button>
                     </a></li>
-                <li><a href="sites/praxis.php"">
+                <li><a href="sites/praxis.php">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
                     </a></li>
-                <li><a href="kontakt.php"">
+                <li><a href="sites/kontakt.php">
                     <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Kontakt</button>
                     </a></li>
             </ul>
@@ -103,7 +103,7 @@
         <ul id="info">
             <li>Physiotherapie am Gesundbrunnen-Center</li>
             <li>Behmstraße 23, 13357 Berlin</li>
-            <li>Rita Seidler & Andrea Klonz</li>
+            <li>Tel. 030 49 301 316</li>
         </ul>
         <ul id="copyright">
             <li>&copy; 2014</li>
