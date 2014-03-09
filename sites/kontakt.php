@@ -95,7 +95,7 @@
             </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-3">
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Kontakt</h3>
@@ -107,6 +107,10 @@
                 </div>
             </div>
         </div>
+		
+		<div class="col-lg-2">
+			<img src="../picture/stehendArmeUnten.png">
+		</div>
         <div class="col-lg-1 hidden-xs"></div>
     </div>
     <br><br>

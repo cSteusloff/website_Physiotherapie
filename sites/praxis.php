@@ -97,7 +97,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 hidden-xs"></div>
+        <div class="col-sm-1 hidden-xs"></div>
+		<div class="col-xs-4 col-sm-2">
+			<img src="../picture/sitzend1.png">
+		</div>
     </div>
 </div>
 

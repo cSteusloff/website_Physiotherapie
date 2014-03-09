@@ -74,7 +74,7 @@
 
     <div class="row">
         <div class="col-lg-1 hidden-xs"></div>
-        <div class="col-lg-5 col-xs-12">
+        <div class="col-lg-3 col-xs-12">
             <div id="hoursofopening" class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Öffnungszeiten</h3>
@@ -85,8 +85,12 @@
                 </div>
             </div>
         </div>
+		
+		<div class="col-lg-3">
+			<img src="picture/sitzend2.png">
+		</div>
 
-        <div class="col-lg-5 col-xs-12">
+        <div class="col-lg-4 col-xs-12">
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Kontakt</h3>
