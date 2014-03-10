@@ -234,6 +234,7 @@ footer li a:active {
 }
 
 
+
 #map_canvas{
     height: 200px;
     display: block;
@@ -247,6 +248,13 @@ footer li a:active {
     box-shadow: none;
 }
 
+.color_red {
+    color: #ED594D;
+}
+
+.color_black{
+    color: #000;
+}
 
 .panel{
     border: 0;
