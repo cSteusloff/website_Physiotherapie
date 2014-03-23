@@ -207,12 +207,12 @@ footer li a:active {
     color:#3A3E4A;
 }
 .panel-heading h3{
-    font-size: 18px;
+    font-size: 22px;
     font-weight:600;
     color:#3A3E4A;
 }
 .panel-body{
-    font-size:12px;
+    font-size:16px;
     font-weight:600;
     color:#3A3E4A;
 }
@@ -259,3 +259,4 @@ footer li a:active {
 .panel{
     border: 0;
 }
+
