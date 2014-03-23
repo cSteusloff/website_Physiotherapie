@@ -1,6 +1,9 @@
+Options -MultiViews
 RewriteEngine On
-RewriteRule ^kontakt$ \kontakt.php [NC,L]
-RewriteRule ^praxis$ \sites\praxis.php [NC,L]
-RewriteRule ^therapie$ \sites\therapie.php [NC,L]
-RewriteRule ^administration$ sites\adminpanel\adminpanel.php [NC,L]
+RewriteBase /
+RewriteRule startseite$ index.php [NC,L]
+RewriteRule kontakt$ sites/kontakt.php [NC,L]
+RewriteRule praxis$ sites/praxis.php [NC,L]
+RewriteRule therapie$ sites/therapie.php [NC,L]
+RewriteRule admin$ sites/adminpanel [NC,L]
 

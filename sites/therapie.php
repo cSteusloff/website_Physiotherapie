@@ -11,79 +11,47 @@
 // responsive images
 // <img src="..." class="img-responsive" alt="Responsive image">
 
+require_once('../template.php');
+
+if(!isset($TPL)){
+    $TPL = new Template();
+    $TPL->pageTitle = "Therapie";
+    $TPL->bannerTitle = "Therapie";
+    $TPL->contentBody = __FILE__;
+    require_once("../layout.php");
+    die();
+}
 ?>
 
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/bootstrap-theme.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!--    mobile Device like native app  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
-</head>
-<body>
-
-
-<div class="container-fluid">
-    <div class="header navbar-default" role="navigation">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="../index.php"><h2 id="physio"><span class="color_red">Physiotherapie</span><br> <span
-                        class="color_black">am Gesundbrunnen-Center</span></h2></a>
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="../index.php">
-                        <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Startseite</button>
-                    </a></li>
-                <li><a href="therapie.php">
-                        <button id="loginbutton" type="button" class="btn btn-primary narbar-btn">Therapie</button>
-                    </a></li>
-                <li><a href="praxis.php">
-                        <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Praxis</button>
-                    </a></li>
-                <li><a href="kontakt.php">
-                        <button id="loginbutton" type="button" class="btn btn-link narbar-btn">Kontakt</button>
-                    </a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div id="banner">
-        <h1 class="bannertitle">Therapie</h1>
-    </div>
-
     <div class="row">
-        <div class="col-sm-1 hidden-xs"></div>
-        <div class="col-xs-6 col-md-4">
+        <div class="panel-primary">
+            <div class="panel-body">
+                Unsere Praxis zeichnet sich durch ein vielfältiges Angebot an physiotherapeutischen Leistungen und durch
+                ein angenehmes Behandlungsumfeld aus. Wir sind zugelassen für Patienten aller gesetzlichen Krankenkassen,
+                BG und für Privatpatienten.
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-5">
             <div class="panel-group" id="accordionLeft">
+                <h3 class="therapieHeader">Klassische Therapie</h3>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionLeft"
                                href="#collapseOne">
-                                Massage
+                                Krankengymnastik
                             </a>
                             <h4>
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse in">
                         <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            Die Physiotherapie orientiert sich bei der Behandlung an den Beschwerden und den Funktions-,
+                            Bewegungs- bzw. Aktivitätseinschränkungen des Patienten, die bei der physiotherapeutischen
+                            Untersuchung festgestellt werden. Dabei zielt die Behandlung einerseits auf natürliche,
+                            physiologische Reaktionen des Organismus (z. B. motorisches Lernen, Muskelaufbau und
+                            Stoffwechselanregung), andererseits auf ein verbessertes Verständnis der Funktionsweise
+                            des Organismus.
                         </div>
                     </div>
                 </div>
@@ -92,19 +60,17 @@
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionLeft"
                                href="#collapseTwo">
-                                Heißlufttherapie
+                                Medizinische Massagen
                             </a>
                             <h4>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            Die Massage [maˈsaːʒə] (von frz. masser „massieren“, aus arab. مس „berühren; betasten“ oder
+                            aus griech. μάσσω „kauen, kneten“) dient zur mechanischen Beeinflussung von Haut, Bindegewebe
+                            und Muskulatur durch Dehnungs-, Zug- und Druckreiz. Die Wirkung der Massage erstreckt sich
+                            von der behandelten Stelle des Körpers über den gesamten Organismus und schließt auch die
+                            Psyche mit ein.
                         </div>
                     </div>
                 </div>
@@ -113,19 +79,33 @@
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionLeft"
                                href="#collapseThree">
-                                Fango
+                                Fango, Heißluft Kälte
                             </a>
                             <h4>
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            Fango ist ein Mineralschlamm vulkanischen Ursprungs und wird in der Peloidtherapie verwendet.
+                            Obwohl sie ähnlich in Anwendung und Wirkungsweise sind, werden aufgrund unterschiedlicher
+                            Aufbereitung und Zusammensetzung grundsätzlich zwei Arten von Fango unterschieden:
+                            organischer und anorganischer Fango.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionLeft"
+                               href="#collapseThree">
+                                Ultraschall und Elektrotherapie
+                            </a>
+                            <h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Elektrotherapie oder Elektromedizin ist die Bezeichnung für therapeutische Anwendungen von
+                            elektrischem Strom in der Medizin und in der Physikalischen Therapie. Für einige der
+                            Verfahren werden synonym auch die Begriffe Reizstromtherapie oder Feinstromtherapie benutzt.
                         </div>
                     </div>
                 </div>
@@ -136,26 +116,25 @@
             <img src="../picture/stehendMitBall.png">
         </div>
 
-        <div class="col-xs-6 col-md-4">
+        <div class="col-xs-6 col-md-5">
             <div class="panel-group" id="accordionRight">
+                <h3 class="therapieHeader">Spezielle Therapien</h3>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionRight"
                                href="#collapseOneR">
-                                Dolo-Taping
+                                KG nach Bobath (auch Kinder)
                             </a>
                             <h4>
                     </div>
                     <div id="collapseOneR" class="panel-collapse collapse in">
                         <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            Das Bobath-Konzept ist ein problemlösender Ansatz in der Befundaufnahme und Behandlung
+                            Erwachsener und Kinder mit neurologischen Erkrankungen. Bobath-Konzept basiert auf
+                            neurophysiologischen und entwicklungsneurologischen Grundlagen und orientiert sich an den
+                            Ressourcen des Patienten. Dieser Anspruch bietet große Chancen in der Weiterentwicklung des
+                            Konzeptes selbst und gleichzeitig einen Grund für Kritik am Konzept
                         </div>
                     </div>
                 </div>
@@ -164,19 +143,17 @@
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionRight"
                                href="#collapseTwoR">
-                                Shiatsu
+                                Manuelle Lymphdrainage
                             </a>
                             <h4>
                     </div>
                     <div id="collapseTwoR" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            Die manuelle Lymphdrainage (ML) ist eine Form der physikalischen Therapien. Ihre
+                            Anwendungsgebiete sind breit gefächert. Sie dient vor allem als Ödem- und
+                            Entstauungstherapie ödematöser Körperregionen, wie Körperstamm und Extremitäten (Arme und
+                            Beine), welche nach Traumata oder Operationen entstehen können. Besonders häufig wird diese
+                            Therapie nach einer Tumorbehandlung bzw. Lymphknotenentfernung verschrieben.
                         </div>
                     </div>
                 </div>
@@ -185,46 +162,47 @@
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionRight"
                                href="#collapseThreeR">
-                                Lymphdrainage
+                                Manuelle Therapie
                             </a>
                             <h4>
                     </div>
                     <div id="collapseThreeR" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            Die manuelle Therapie dient in der Medizin zur Behandlung von Funktionsstörungen des
+                            Bewegungsapparats (Gelenke, Muskeln und Nerven); sie ist der von Physiotherapeuten/
+                            Masseuren mit einer speziellen Weiterbildung durchgeführte Teil der Manuellen Medizin.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionRight"
+                               href="#collapseThreeR">
+                                Schlingentischbehandlung
+                            </a>
+                            <h4>
+                    </div>
+                    <div id="collapseThreeR" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Der Schlingentisch wird in der Physiotherapie als Therapiehilfsmittel benutzt, um die
+                            betroffenen, schmerzhaften oder auch unbeweglichen Gliedmaßen zu behandeln.Der Schlingentisch
+                            ist somit für bestimmte orthopädische Diagnosen ein unverzichtbarer Bestandteil der
+                            physiotherapeutischen Behandlung.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="panel-primary">
+            <div class="panel-body">
+                Als Ergänzung zu diesen Therapien bieten wir, neben den durch die Krankenkassen übernommen Leistungen,
+                auch Cranio Sacral Therapie, Shiatsu, Migränetherapie, Dolo- und Kinesio Taping, Fußreflexzonenmassage
+                sowie Reiki.
+            </div>
+        </div>
+
     </div>
-    <div class="col-sm-1 hidden-xs"></div>
-</div>
 
 
-<footer>
-    <ul id="info">
-        <li>Physiotherapie am Gesundbrunnen-Center</li>
-        <li>Behmstraße 23, 13357 Berlin</li>
-        <li>Tel. 030 49 301 316</li>
-    </ul>
-    <ul id="copyright">
-        <li>&copy; 2014</li>
-        <li><a href="http://submit-ev.de">submit e.V.</a></li>
-        <li><a href="#">Impressum</a></li>
-        <li>Kontakt</li>
-    </ul>
-</footer>
-</div>
-
-<script src="../js/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-
-</body>
-</html>

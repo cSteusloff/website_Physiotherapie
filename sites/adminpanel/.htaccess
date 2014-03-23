@@ -1,5 +1,4 @@
-AuthUserFile /.htpasswd
-AuthName EnterPassword
+AuthName "adminpanel"
 AuthType Basic
-
+AuthUserFile http://csteusloff.com/physiotherapie/sites/adminpanel/.htpasswd
 require valid-user

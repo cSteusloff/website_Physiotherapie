@@ -7,3 +7,9 @@
 -Button auf Praxisseite ist blau?! ->erledigt (falsche css-Datei eingeladen)
 
 -Bilder sollten sich automatisch vergroessern, so dass sie halbe Seite einnehmen
+
+
+
+> Login-User:
+physiotherapie
+Physio5%

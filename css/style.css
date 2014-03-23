@@ -137,9 +137,18 @@ footer {
   clear: both;
   background-color: #3a3e4a;
   color: #ffffff;
-  padding-left: 5px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 50px;
+  margin-top: -65px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+
 }
 footer li:before {
   content: ' | ';
@@ -174,6 +183,21 @@ footer li a:active {
 /************************/
 /*  Content             */
 /************************/
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container-fluid{
+    max-width: 1200px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
 #content {
   margin: 20px 0px 20px 0px;
 }
@@ -207,12 +231,12 @@ footer li a:active {
     color:#3A3E4A;
 }
 .panel-heading h3{
-    font-size: 22px;
+    font-size: 18px;
     font-weight:600;
     color:#3A3E4A;
 }
 .panel-body{
-    font-size:16px;
+    font-size:12px;
     font-weight:600;
     color:#3A3E4A;
 }
@@ -232,7 +256,6 @@ footer li a:active {
     color: #ffffff;
     margin: 1px 10px 1px 0px;
 }
-
 
 
 #map_canvas{
@@ -260,3 +283,37 @@ footer li a:active {
     border: 0;
 }
 
+.panel-body{
+    /*font-size: 18px;*/
+}
+
+.therapieHeader{
+    text-align: center;
+    color:  #ED594D;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 450px){
+    h2 {
+        font-size: 15px;
+    }
+    .navbar-header {
+        height: 50px;
+    }
+
+    #banner {
+        height: 30px;
+    }
+
+    #banner h1 {
+        font-size: 18px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    footer {
+        height: 80px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
