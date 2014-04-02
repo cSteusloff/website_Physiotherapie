@@ -61,7 +61,7 @@ $links = array('Startseite','Therapie','Praxis','Kontakt');
         </div>
     </div>
 
-    <div id="banner">
+    <div id="banner" class="highlight">
         <h1 id="welcome"><?php echo (isset($TPL->bannerTitle)) ? $TPL->bannerTitle : ""?></h1>
     </div>
 
@@ -81,8 +81,8 @@ $links = array('Startseite','Therapie','Praxis','Kontakt');
     <ul id="copyright">
         <li>&copy; 2014</li>
         <li><a href="http://submit-ev.de">submit e.V.</a></li>
-        <li><a href="#">Impressum</a></li>
-        <li>Kontakt</li>
+        <li><a href="Impressum">Impressum</a></li>
+        <li><a href="Kontakt">Kontakt</a></li>
     </ul>
 </footer>
 <script src="js/jquery.min.js"></script>
