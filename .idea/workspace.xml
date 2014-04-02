@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ab18b-b5f3-4312-abb6-7675109f6975" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/adminpanel/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/info.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php.ini" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\praxis\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\praxis\ToDo.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\praxis\praxis\.idea\praxis.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\praxis\praxis\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\praxis\praxis\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\praxis\sites\adminpanel\adminpanel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\praxis\sites\adminpanel\fullpath.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/adminpanel/.htaccess" afterPath="$PROJECT_DIR$/sites/adminpanel/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/adminpanel/.htpasswd" afterPath="$PROJECT_DIR$/sites/adminpanel/.htpasswd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDo.txt" afterPath="$PROJECT_DIR$/ToDo.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/adminpanel/index.php" afterPath="$PROJECT_DIR$/sites/adminpanel/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/kontakt.php" afterPath="$PROJECT_DIR$/sites/kontakt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout.php" afterPath="$PROJECT_DIR$/layout.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/praxis.php" afterPath="$PROJECT_DIR$/sites/praxis.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/therapie.php" afterPath="$PROJECT_DIR$/sites/therapie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/website_Physiotherapie.iml" afterPath="$PROJECT_DIR$/.idea/website_Physiotherapie.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="website_Physiotherapie.iws" />
@@ -40,98 +43,7 @@
     <favorites_list name="website_Physiotherapie" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="64" selection-start="215" selection-end="215" vertical-scroll-proportion="2.3846154" vertical-offset="164" max-vertical-offset="1037">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="74" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-19.615385" vertical-offset="102" max-vertical-offset="1598">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="279" column="1" selection-start="3552" selection-end="3552" vertical-scroll-proportion="0.5083426" vertical-offset="4286" max-vertical-offset="5525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kontakt.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/kontakt.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1326">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="praxis.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/praxis.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="42" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminpanel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/adminpanel/adminpanel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fullpath.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/adminpanel/fullpath.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htpasswd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htpasswd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -144,18 +56,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/adminpanel/index.php" />
         <option value="$PROJECT_DIR$/sites/adminpanel/adminpanel.php" />
         <option value="$PROJECT_DIR$/sites/adminpanel/fullpath.php" />
         <option value="$PROJECT_DIR$/sites/adminpanel/.htpasswd" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/sites/adminpanel/.htaccess" />
         <option value="$PROJECT_DIR$/sites/therapie.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/sites/kontakt.php" />
         <option value="$PROJECT_DIR$/sites/praxis.php" />
         <option value="$PROJECT_DIR$/layout.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/sites/test/index.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/adminpanel/index.php" />
       </list>
     </option>
   </component>
@@ -192,6 +105,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,7 +140,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,6 +197,15 @@
       <created>1394310344057</created>
       <updated>1394310344057</updated>
     </task>
+    <task id="LOCAL-00001" summary="Template&#10;Beheben von Fehlern (Design)&#10;Einspielen von Texten&#10;Anpassung der mobilen Version&#10;SEO für Links (mod_rewrite)&#10;.htaccess für Zugriff Adminpanel">
+      <created>1395605627603</created>
+      <updated>1395605627603</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Template&#10;Beheben von Fehlern (Design)&#10;Einspielen von Texten&#10;Anpassung der mobilen Version&#10;SEO für Links (mod_rewrite)&#10;.htaccess für Zugriff Adminpanel">
+      <created>1395605721758</created>
+      <updated>1395605721758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -308,14 +230,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26677316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2747604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -325,12 +247,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -345,37 +268,72 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Template&#10;Beheben von Fehlern (Design)&#10;Einspielen von Texten&#10;Anpassung der mobilen Version&#10;SEO für Links (mod_rewrite)&#10;.htaccess für Zugriff Adminpanel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template&#10;Beheben von Fehlern (Design)&#10;Einspielen von Texten&#10;Anpassung der mobilen Version&#10;SEO für Links (mod_rewrite)&#10;.htaccess für Zugriff Adminpanel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/adminpanel.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+        <state line="11" column="64" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="74" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="296" column="19" selection-start="3740" selection-end="3740" vertical-scroll-proportion="0.0" vertical-offset="4501" max-vertical-offset="5593">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/kontakt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="27" selection-start="904" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+        <state line="9" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/praxis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="42" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="2" selection-start="0" selection-end="3507" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htpasswd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/fullpath.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htpasswd">
@@ -415,16 +373,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/therapie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="42" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="3995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/adminpanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="40" column="42" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="3995" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
@@ -436,16 +385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/fullpath.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htpasswd">
@@ -485,16 +425,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/therapie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="42" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="3995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/adminpanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="40" column="42" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="3995" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
@@ -506,16 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/fullpath.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htpasswd">
@@ -532,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/adminpanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
@@ -548,16 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/fullpath.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htpasswd">
@@ -574,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/adminpanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
@@ -590,16 +489,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/fullpath.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htpasswd">
@@ -616,32 +506,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/fullpath.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/adminpanel/adminpanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/adminpanel/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="3" column="18" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
@@ -659,44 +526,56 @@
         <state line="6" column="74" selection-start="242" selection-end="244" vertical-scroll-proportion="0.3197492" vertical-offset="0" max-vertical-offset="319" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/kontakt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/therapie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="3638">
-          <folding />
-        </state>
+        <state line="20" column="34" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="3638" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/praxis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="64" selection-start="215" selection-end="215" vertical-scroll-proportion="2.3846154" vertical-offset="164" max-vertical-offset="1037">
+        <state line="44" column="42" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="74" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-19.615385" vertical-offset="102" max-vertical-offset="1598">
+        <state line="41" column="74" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="64" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/kontakt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="27" selection-start="904" selection-end="1916" vertical-scroll-proportion="0.49369988" vertical-offset="453" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.1701891" vertical-offset="0" max-vertical-offset="899">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="2" selection-start="0" selection-end="3507" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="1" selection-start="3552" selection-end="3552" vertical-scroll-proportion="0.5083426" vertical-offset="4286" max-vertical-offset="5525">
+        <state line="296" column="19" selection-start="3740" selection-end="3740" vertical-scroll-proportion="0.5906563" vertical-offset="4501" max-vertical-offset="5593">
           <folding />
         </state>
       </provider>

@@ -143,8 +143,8 @@ footer {
   margin-right: auto;
   margin-left: auto;
   height: 50px;
-  margin-top: -65px;
-  margin-bottom: 15px;
+  margin-top: -75px;
+  margin-bottom: 5px;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
@@ -231,14 +231,18 @@ body {
     color:#3A3E4A;
 }
 .panel-heading h3{
-    font-size: 18px;
+    font-size: 22px;
     font-weight:600;
     color:#3A3E4A;
 }
 .panel-body{
-    font-size:12px;
-    font-weight:600;
+    font-size:16px;
+    font-weight:200;
     color:#3A3E4A;
+}
+
+.panel-body i{
+    font-size: 12px;
 }
 
 .panel-group {
@@ -271,11 +275,11 @@ body {
     box-shadow: none;
 }
 
-.color_red {
+.red {
     color: #ED594D;
 }
 
-.color_black{
+.black{
     color: #000;
 }
 
@@ -291,6 +295,10 @@ body {
     text-align: center;
     color:  #ED594D;
     margin-bottom: 5px;
+}
+
+label.top{
+    margin-top: 5px;
 }
 
 @media (max-width: 450px){

@@ -12,7 +12,7 @@
 // <img src="..." class="img-responsive" alt="Responsive image">
 
 require_once('template.php');
-if(!isset($TPL)){
+if (!isset($TPL)) {
     $TPL = new Template();
     $TPL->pageTitle = "Startseite";
     $TPL->bannerTitle = "Willkommen";
@@ -22,30 +22,35 @@ if(!isset($TPL)){
 }
 ?>
 
-    <div class="row">
-        <div class="col-xs-12 col-md-6">
-            <img src="picture/praxis.png" class="img-responsive" alt="Praxis">
-        </div>
-        <div class="col-xs-12 col-md-6">
-            <img src="picture/empfang.png" class="img-responsive hidden-xs pull-right" alt="Praxis">
-        </div>
+<div class="row">
+    <div class="col-xs-12 col-md-6">
+        <img src="picture/praxis.png" class="img-responsive" alt="Praxis">
     </div>
-    <br>
+    <div class="col-xs-12 col-md-6">
+        <img src="picture/empfang.png" class="img-responsive hidden-xs hidden-sm pull-right" alt="Praxis">
+    </div>
+</div>
+<br>
 
-    <div class="row">
-        <div class="col-md-6 col-xs-12">
-            <div>
-                <div class="panel-heading">
-                    <h3 class="panel-title">Öffnungszeiten</h3>
-                </div>
-                <div class="panel-body">
-                    Montag - Freitag: 9:00 - 19:00 Uhr<br>
-                    Hausbesuche nach Vereinbarung<br>
-                </div>
+<div class="row">
+    <div class="col-sm-4 col-xs-12">
+        <div>
+            <div class="panel-heading">
+                <h3 class="panel-title">Öffnungszeiten</h3>
+            </div>
+            <div class="panel-body">
+                Montag - Freitag: 9:00 - 19:00 Uhr<br>
+                Hausbesuche nach Vereinbarung<br>
             </div>
         </div>
+    </div>
 
-        <div class="col-md-6 col-xs-12">
+    <div class="col-sm-4 col-xs-12" style="text-align: center">
+        <img src="picture/sitzend2.png">
+    </div>
+
+    <div class="col-md-4 col-xs-12">
+        <div class="col-md-push-8 col-sm-push-0 col-xs-push-0">
             <div class="pull-right">
                 <div class="panel-heading">
                     <h3 class="panel-title">Kontakt</h3>
@@ -58,3 +63,4 @@ if(!isset($TPL)){
             </div>
         </div>
     </div>
+</div>

@@ -1,4 +1,4 @@
-AuthName "adminpanel"
 AuthType Basic
-AuthUserFile http://csteusloff.com/physiotherapie/sites/adminpanel/.htpasswd
-require valid-user
+AuthName "Access to /physiotherapie/sites/adminpanel"
+AuthUserFile /kunden/homepages/10/d503623481/htpasswd
+Require user physiotherapie
