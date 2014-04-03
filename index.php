@@ -21,13 +21,6 @@ if (!isset($TPL)) {
     die();
 }
 ?>
-<div class="row">
-    <div class="col-xs-12">
-        <div class="notification alert alert-warning">
-            <i class="fa fa-bell-o fa-2x pull-left"></i><b>Praxis ist bis zum 07.04 geschlossen!</b><i class="fa fa-bell-o fa-2x pull-right"></i>
-        </div>
-    </div>
-</div>
 
 <div class="row">
     <div class="col-xs-12 col-md-6">

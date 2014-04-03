@@ -36,20 +36,29 @@ if (!isset($TPL)) {
                 <h3 class="panel-title">Kontaktformular</h3>
             </div>
             <div class="panel-body">
-                <form role="form">
+                <form role="form" id="contactForm">
+                    <div id="success"></div>
                     <div class="form-group">
                         <label class="sr-only" for="input_name">Ihr Name</label>
-                        <input type="text" class="form-control input-sm" id="input_name" placeholder="Name" required="">
+                        <input type="text" class="form-control input-sm" id="input_name" name="input_name" placeholder="Name" required="">
                     </div>
                     <div class="form-group">
                         <label class="sr-only" for="input_mail">Ihre Mailadresse</label>
-                        <input type="email" class="form-control input-sm" id="input_mail" placeholder="Email">
+                        <input type="email" class="form-control input-sm" id="input_mail" name="input_mail" placeholder="Email" required="">
                     </div>
                     <div class="form-group">
-                        <label class="sr-only" for="input_name">Ihre Nachricht</label>
-                        <textarea id="input_message" class="form-control input-sm" rows="3"
-                                  placeholder="Nachricht"></textarea>
+                        <label class="sr-only" for="input_message">Ihre Nachricht</label>
+                        <textarea id="input_message" name="input_message" class="form-control input-sm" rows="3"
+                                  placeholder="Nachricht" required=""></textarea>
                     </div>
+
+                    <img id="captcha" src="/captcha/securimage/securimage_show.php" alt="CAPTCHA Image" />
+                    <a href="#" onclick="document.getElementById('captcha').src = '/captcha/securimage/securimage_show.php?' + Math.random(); return false" class="btn btn-primary narbar-btn">Anderes Bild anzeigen</a>
+                    <div class="form-group">
+                        <label class="sr-only" for="captcha_code">Bitte geben Sie den angezeigten Code ein.</label>
+                        <input type="text" class="form-control" name="captcha_code" id="captcha_code" placeholder="Bitte geben Sie den angezeigten Code ein." required="">
+                    </div>
+
                     <button type="submit" class="btn btn-primary narbar-btn">Senden</button>
                 </form>
 

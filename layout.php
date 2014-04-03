@@ -25,6 +25,8 @@ $links = array('Startseite','Therapie','Praxis','Kontakt');
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--    mobile Device like native app  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="picture/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="picture/favicon.ico" type="image/x-icon">
     <?php echo (isset($TPL->contentHead)) ? $TPL->contentHead : ""?>
 </head>
 <body>
@@ -61,7 +63,7 @@ $links = array('Startseite','Therapie','Praxis','Kontakt');
         </div>
     </div>
 
-    <div id="banner" class="highlight">
+    <div id="banner">
         <h1 id="welcome"><?php echo (isset($TPL->bannerTitle)) ? $TPL->bannerTitle : ""?></h1>
     </div>
 
@@ -81,13 +83,15 @@ $links = array('Startseite','Therapie','Praxis','Kontakt');
     <ul id="copyright">
         <li>&copy; 2014</li>
         <li><a href="http://submit-ev.de">submit e.V.</a></li>
-        <li><a href="Impressum">Impressum</a></li>
-        <li><a href="Kontakt">Kontakt</a></li>
+        <li><a href="#">Impressum</a></li>
+        <li>Kontakt</li>
     </ul>
 </footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="../js/mapControl.js"></script>
+<script src="./js/mapControl.js"></script>
+<script src="./js/jqBootstrapValidation.js"></script>
+<script src="./js/contact_me.js"></script>
 </body>
 </html>
