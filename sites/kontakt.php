@@ -52,8 +52,11 @@ if (!isset($TPL)) {
                                   placeholder="Nachricht" required=""></textarea>
                     </div>
 
+
                     <img id="captcha" src="/captcha/securimage/securimage_show.php" alt="CAPTCHA Image" />
-                    <a href="#" onclick="document.getElementById('captcha').src = '/captcha/securimage/securimage_show.php?' + Math.random(); return false" class="btn btn-primary narbar-btn">Anderes Bild anzeigen</a>
+                    <a href="#" onclick="document.getElementById('captcha').src = '/captcha/securimage/securimage_show.php?' + Math.random(); return false"
+                       class="btn btn-primary"><span class="glyphicon glyphicon-repeat"></span> neuer Code</a>
+
                     <div class="form-group">
                         <label class="sr-only" for="captcha_code">Bitte geben Sie den angezeigten Code ein.</label>
                         <input type="text" class="form-control" name="captcha_code" id="captcha_code" placeholder="Bitte geben Sie den angezeigten Code ein." required="">
@@ -66,7 +69,7 @@ if (!isset($TPL)) {
         </div>
     </div>
     <div class="col-md-2 col-xs-12" style="text-align: center">
-        <img src="/picture/stehendArmeUnten.png" class="hidden-sm hidden-xs">
+        <img src="/picture/PhysiotherapieGesundbrunnenFigure04.png" class="hidden-sm hidden-xs">
     </div>
     <div class="col-md-5 col-xs-12">
         <div class="panel-primary">
@@ -74,10 +77,19 @@ if (!isset($TPL)) {
                 <h3 class="panel-title">Kontakt</h3>
             </div>
             <div class="panel-body">
-                <i class="fa fa-map-marker circle"></i>Behmstraße 23, 13357 Berlin<br>
-                <i class="fa fa-phone circle"></i>(030) 49 301 316<br>
-                <i class="fa fa-envelope-o circle"></i>physiotherapie-gesundbrunnen@web.de<br>
+                <i class="fa fa-map-marker circle"></i><?=$metaData->getAddress()?><br>
+                <i class="fa fa-phone circle"></i><?=$metaData->getPhone()?><br>
+                <i class="fa fa-envelope-o circle"></i><?=$metaData->getMail()?><br>
             </div>
+
+            <div class="panel-heading">
+                <h3 class="panel-title">Öffnungszeiten</h3>
+            </div>
+            <div class="panel-body">
+                <?= $metaData->getHoursHtml() ?>
+            </div>
+
+
         </div>
     </div>
 </div>

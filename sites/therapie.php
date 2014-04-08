@@ -114,7 +114,7 @@ if (!isset($TPL)) {
     </div>
 
     <div class="col-md-2 hidden-xs" style="text-align: center; height: 100%;">
-        <img src="../picture/stehendMitBall.png">
+        <img src="../picture/PhysiotherapieGesundbrunnenFigure02.png">
     </div>
 
     <div class="col-xs-12 col-md-5">

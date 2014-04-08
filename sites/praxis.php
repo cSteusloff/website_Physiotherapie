@@ -57,6 +57,6 @@ if (!isset($TPL)) {
         </div>
     </div>
     <div class="col-md-2">
-        <img src="/picture/sitzend1.png" class="hidden-sm hidden-xs">
+        <img src="/picture/PhysiotherapieGesundbrunnenFigure03.png" class="hidden-sm hidden-xs">
     </div>
 </div>

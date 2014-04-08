@@ -6,11 +6,6 @@
  * Time: 12:50
  */
 
-// Bootstrap 3.0 -> mobile first
-
-// responsive images
-// <img src="..." class="img-responsive" alt="Responsive image">
-
 require_once('../template.php');
 if (!isset($TPL)) {
     $TPL = new Template();

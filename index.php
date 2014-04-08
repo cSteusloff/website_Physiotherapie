@@ -22,6 +22,18 @@ if (!isset($TPL)) {
 }
 ?>
 
+
+<?if($metaData->getShowMessage() == 1){?>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="notification alert alert-warning">
+                <i class="fa fa-bell-o fa-2x pull-left"></i><b><?=$metaData->getMessage()?></b><i class="fa fa-bell-o fa-2x pull-right"></i>
+            </div>
+        </div>
+    </div>
+<?}?>
+
+
 <div class="row">
     <div class="col-xs-12 col-md-6">
         <img src="picture/praxis.png" class="img-responsive" alt="Praxis">
@@ -39,28 +51,25 @@ if (!isset($TPL)) {
                 <h3 class="panel-title">Öffnungszeiten</h3>
             </div>
             <div class="panel-body">
-                Montag - Freitag: 9:00 - 19:00 Uhr<br>
-                Hausbesuche nach Vereinbarung<br>
+                <?=$metaData->getHoursHtml()?>
             </div>
         </div>
     </div>
 
     <div class="col-sm-4 col-xs-12" style="text-align: center">
-        <img src="picture/sitzend2.png">
+        <img src="picture/PhysiotherapieGesundbrunnenFigure01.png">
     </div>
 
     <div class="col-md-4 col-xs-12">
-        <div class="col-md-push-8 col-sm-push-0 col-xs-push-0">
-            <div class="pull-right">
+            <div>
                 <div class="panel-heading">
                     <h3 class="panel-title">Kontakt</h3>
                 </div>
                 <div class="panel-body">
-                    <i class="fa fa-map-marker circle"></i>Behmstraße 23, 13357 Berlin<br>
-                    <i class="fa fa-phone circle"></i>(030) 49 301 316<br>
-                    <i class="fa fa-envelope-o circle"></i>physiotherapie-gesundbrunnen@web.de<br>
+                    <i class="fa fa-map-marker circle"></i><?=$metaData->getAddress()?><br>
+                    <i class="fa fa-phone circle"></i><?=$metaData->getPhone()?><br>
+                    <i class="fa fa-envelope-o circle"></i><?=$metaData->getMail()?><br>
                 </div>
             </div>
-        </div>
     </div>
 </div>

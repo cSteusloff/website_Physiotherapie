@@ -6,17 +6,20 @@
  * Time: 14:25
  */
 
+require_once('define.inc.php');
+require_once('databaseConnection.php');
+require_once('Physiotherapie.php');
 require_once('template.php');
 
-$start = 'Startseite';
-$links = array('Startseite','Therapie','Praxis','Kontakt');
+$connection = new DatabaseConnection();
+$metaData = new Physiotherapie($connection);
 
 
 ?>
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title><?php echo (isset($TPL->pageTitle)) ? $TPL->pageTitle : ""?></title>
+    <title><?php echo (isset($TPL->pageTitle)) ? $TPL->pageTitle : "" ?></title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -27,64 +30,68 @@ $links = array('Startseite','Therapie','Praxis','Kontakt');
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="picture/favicon.ico" type="image/x-icon">
     <link rel="icon" href="picture/favicon.ico" type="image/x-icon">
-    <?php echo (isset($TPL->contentHead)) ? $TPL->contentHead : ""?>
+    <?php echo (isset($TPL->contentHead)) ? $TPL->contentHead : "" ?>
+
 </head>
 <body>
+
 
 <div class="container-fluid">
     <div class="header navbar-default" role="navigation">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
+                <span class="sr-only"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo($start);?>"><h2 id="physio"><span class="red">Physiotherapie</span>
+            <a class="navbar-brand" href="<?php echo(WEB_HOME); ?>"><h2 id="physio"><span
+                        class="red">Physiotherapie</span>
                     <br><span class="black">am Gesundbrunnen-Center</span></h2></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <?php
-                    foreach($links as $link){
-                        $url = basename($_SERVER["REQUEST_URI"]);
-                        $bnt_type = "btn-link";
-                        if((empty($url) && $link == $start) || ($link == $url)){
-                            // activ link
-                            $bnt_type = "btn-primary";
-                        }
-                        echo("<li><a href='{$link}'>");
-                        echo("<button id='loginbutton' type='button' class='btn narbar-btn {$bnt_type}'>");
-                        echo("{$link}</button>");
-                        echo("</a></li>");
+                foreach (explode(";", WEB_LINKS) as $link) {
+                    $url = basename($_SERVER["REQUEST_URI"]);
+                    $bnt_type = "btn-link";
+                    if ((empty($url) && $link == WEB_HOME) || ($link == $url)) {
+                        // activ link
+                        $bnt_type = "btn-primary";
                     }
+                    echo("<li><a href='{$link}'>");
+                    echo("<button id='loginbutton' type='button' class='btn narbar-btn {$bnt_type}'>");
+                    echo("{$link}</button>");
+                    echo("</a></li>");
+                }
                 ?>
             </ul>
         </div>
     </div>
 
     <div id="banner">
-        <h1 id="welcome"><?php echo (isset($TPL->bannerTitle)) ? $TPL->bannerTitle : ""?></h1>
+        <h1 id="welcome"><?php echo (isset($TPL->bannerTitle)) ? $TPL->bannerTitle : "" ?></h1>
     </div>
 
+    <div id="content">
     <?php
-    if(isset($TPL->contentBody)){
+    if (isset($TPL->contentBody)) {
         include($TPL->contentBody);
     }
     ?>
-
+    </div>
 </div>
 <footer>
     <ul id="info">
         <li>Physiotherapie am Gesundbrunnen Center</li>
-        <li>Behmstraße 23, 13357 Berlin</li>
-        <li>Tel. 030 49 301 316</li>
+        <li><?= $metaData->getAddress() ?></li>
+        <li>Tel. <?= $metaData->getPhone() ?></li>
     </ul>
     <ul id="copyright">
-        <li>&copy; 2014</li>
+        <li>&copy; <?= date("Y") ?></li>
         <li><a href="http://submit-ev.de">submit e.V.</a></li>
-        <li><a href="#">Impressum</a></li>
-        <li>Kontakt</li>
+        <li><a href="Impressum">Impressum</a></li>
+        <li><a href="Kontakt">Kontakt</a></li>
     </ul>
 </footer>
 <script src="js/jquery.min.js"></script>
