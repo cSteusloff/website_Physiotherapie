@@ -47,7 +47,7 @@ $metaData = new Physiotherapie($connection);
             </button>
             <a class="navbar-brand" href="<?php echo(WEB_HOME); ?>"><h2 id="physio"><span
                         class="red">Physiotherapie</span>
-                    <br><span class="black">am Gesundbrunnen-Center</span></h2></a>
+                    <br><span class="black">am Gesundbrunnen Center</span></h2></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -86,6 +86,7 @@ $metaData = new Physiotherapie($connection);
         <li>Physiotherapie am Gesundbrunnen Center</li>
         <li><?= $metaData->getAddress() ?></li>
         <li>Tel. <?= $metaData->getPhone() ?></li>
+        <li>Fax. <?= $metaData->getFax() ?></li>
     </ul>
     <ul id="copyright">
         <li>&copy; <?= date("Y") ?></li>

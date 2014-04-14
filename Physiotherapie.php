@@ -56,6 +56,11 @@ class Physiotherapie
      * @var string phone - varchar(30)
      */
     private $phone;
+
+    /**
+     * @var string fax - varchar(30)
+     */
+    private $fax;
     /**
      * @var string mail - varchar(255)
      */
@@ -162,6 +167,22 @@ class Physiotherapie
     }
 
     /**
+     * @param string $fax
+     */
+    public function setFax($fax)
+    {
+        $this->fax = $fax;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFax()
+    {
+        return $this->fax;
+    }
+
+    /**
      * @param boolean $showMessage
      */
     public function setShowMessage($showMessage)
@@ -225,6 +246,7 @@ class Physiotherapie
                                       Zip,
                                       City,
                                       Phone,
+                                      Fax,
                                       Mail,
                                       Message,
                                       ShowMessage,
@@ -253,6 +275,7 @@ class Physiotherapie
                                    Zip='".$this->getZip()."',
                                    City='".$this->getCity()."',
                                    Phone='".$this->getPhone()."',
+                                   Fax='".$this->getFax()."'
                                    Mail='".$this->getMail()."',
                                    Message='".$this->getMessage()."',
                                    ShowMessage='".$this->getShowMessage()."',

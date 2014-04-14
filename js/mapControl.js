@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     function initMap()
     {
-        var myPosition = new google.maps.LatLng(52.5502852,13.38915288);
+        var myPosition = new google.maps.LatLng(52.5507149,13.3893247);
 
         var mapOptions={
             zoom: 15,
