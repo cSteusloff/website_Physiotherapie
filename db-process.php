@@ -19,6 +19,7 @@ if(isset($_POST["submit"])){
     $metaData->setZip($_POST["zip"]);
     $metaData->setCity($_POST["city"]);
     $metaData->setPhone($_POST["phone"]);
+    $metaData->setFax($_POST["fax"]);
     $metaData->setMail($_POST["mail"]);
     $metaData->setMessage($_POST["message"]);
     $metaData->setHours($_POST["businessHours"]);

@@ -101,6 +101,18 @@ if (isset($_GET["s"]) && $_GET["s"] = 1) {
 
                     <!-- Text input-->
                     <div class="control-group">
+                        <label class="control-label top" for="fax">Fax</label>
+
+                        <div class="controls">
+                            <input id="fax" name="fax" type="text" placeholder="Fax"
+                                   value="<?= $metaData->getFax() ?>"
+                                   class="form-control input-xlarge" required="">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
                         <label class="control-label top" for="mail">E-Mail</label>
 
                         <div class="controls">

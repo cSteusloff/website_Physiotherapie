@@ -260,6 +260,7 @@ class Physiotherapie
                 $this->setZip($row->Zip);
                 $this->setCity($row->City);
                 $this->setPhone($row->Phone);
+                $this->setFax($row->Fax);
                 $this->setMail($row->Mail);
                 $this->setMessage($row->Message);
                 $this->setShowMessage($row->ShowMessage);
@@ -275,7 +276,7 @@ class Physiotherapie
                                    Zip='".$this->getZip()."',
                                    City='".$this->getCity()."',
                                    Phone='".$this->getPhone()."',
-                                   Fax='".$this->getFax()."'
+                                   Fax='".$this->getFax()."',
                                    Mail='".$this->getMail()."',
                                    Message='".$this->getMessage()."',
                                    ShowMessage='".$this->getShowMessage()."',

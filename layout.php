@@ -86,7 +86,7 @@ $metaData = new Physiotherapie($connection);
         <li>Physiotherapie am Gesundbrunnen Center</li>
         <li><?= $metaData->getAddress() ?></li>
         <li>Tel. <?= $metaData->getPhone() ?></li>
-        <li>Fax. <?= $metaData->getFax() ?></li>
+        <li>Fax <?= $metaData->getFax() ?></li>
     </ul>
     <ul id="copyright">
         <li>&copy; <?= date("Y") ?></li>
