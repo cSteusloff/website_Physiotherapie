@@ -9,7 +9,7 @@ $(document).ready(function () {
         var mapOptions={
             zoom: 15,
             center: myPosition,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
         var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
@@ -17,14 +17,14 @@ $(document).ready(function () {
         var marker = new google.maps.Marker({
             position: myPosition,
             map: map,
-            title: 'Roll-over-Text'
+            title: 'Physiotherapie am Gesundbrunnen Center'
         });
 
         var infowindow = new google.maps.InfoWindow({
-            content: '<p>Titel</p><p>  Beschreibungstext  </p>'
+            content: '<p><b>Physiotherapie am Gesundbrunnen Center</b></p><p>Behmstraße 23<br>13357 Berlin</p>'
         });
 
-        google.maps.event.addListener(marker, 'hover', function() {
+        google.maps.event.addListener(marker, 'click', function() {
             infowindow.open(map,marker);
         });
 
