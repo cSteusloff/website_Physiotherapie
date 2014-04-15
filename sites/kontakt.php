@@ -51,8 +51,6 @@ if (!isset($TPL)) {
                         <textarea id="input_message" name="input_message" class="form-control input-sm" rows="3"
                                   placeholder="Nachricht" required=""></textarea>
                     </div>
-
-
                     <img id="captcha" src="/captcha/securimage/securimage_show.php" alt="CAPTCHA Image" />
                     <a href="#" onclick="document.getElementById('captcha').src = '/captcha/securimage/securimage_show.php?' + Math.random(); return false"
                        class="btn btn-primary"><span class="glyphicon glyphicon-repeat"></span> neuer Code</a>

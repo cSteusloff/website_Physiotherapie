@@ -1,0 +1,20 @@
+@Kristin:
+Eine einfache Mail-Sendung
+
+function sendMail($receiver,$acceptor,$subject,$message,$html=true){
+	$header = 'MIME-Version: 1.0' . "\r\n";
+	$header .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+	$header .= 'From: '. $receiver . "\r\n";
+
+	$msg = "<html>
+			<head>
+				<title>{$subject}</title>
+				<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+			</head>
+			<body>";
+	$msg .= $message;
+	$msg .= "</body>
+			 </html>";
+
+	return mail($acceptor, '=?UTF-8?B?'.base64_encode($subject).'?=', $msg, $header);
+}

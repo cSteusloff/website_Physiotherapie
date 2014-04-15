@@ -48,7 +48,7 @@ $(function() {
                         $('#success > .alert-danger').append("<strong>Entschuldigung! Ein Fehler ist aufgetreten! </strong> Könnten Sie mir Ihre Nachricht bitte direkt an <a href='mailto:kristin@sofortsurf.de?Subject=Nachricht von testwebsite.de;>kristin@sofortsurf.de'</a> senden?");
                         $('#success > .alert-danger').append('</div>');
                         //clear all fields
-                        $('#contactForm').trigger("reset");
+                        //$('#contactForm').trigger("reset");
                     }
                 })
             },
