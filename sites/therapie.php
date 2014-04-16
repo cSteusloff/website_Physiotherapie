@@ -97,12 +97,12 @@ if (!isset($TPL)) {
                 <div class="panel-heading">
                     <h4 class="panel-title">
                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionLeft"
-                           href="#collapseThree">
+                           href="#collapseFour">
                             Ultraschall und Elektrotherapie
                         </a>
                         <h4>
                 </div>
-                <div id="collapseThree" class="panel-collapse collapse">
+                <div id="collapseFour" class="panel-collapse collapse">
                     <div class="panel-body">
                         Elektrotherapie oder Elektromedizin ist die Bezeichnung für therapeutische Anwendungen von
                         elektrischem Strom in der Medizin und in der Physikalischen Therapie. Für einige der
@@ -180,12 +180,12 @@ if (!isset($TPL)) {
                 <div class="panel-heading">
                     <h4 class="panel-title">
                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionRight"
-                           href="#collapseThreeR">
+                           href="#collapseFourR">
                             Schlingentischbehandlung
                         </a>
                         <h4>
                 </div>
-                <div id="collapseThreeR" class="panel-collapse collapse">
+                <div id="collapseFourR" class="panel-collapse collapse">
                     <div class="panel-body">
                         Der Schlingentisch wird in der Physiotherapie als Therapiehilfsmittel benutzt, um die
                         betroffenen, schmerzhaften oder auch unbeweglichen Gliedmaßen zu behandeln.Der Schlingentisch
