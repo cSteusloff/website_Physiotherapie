@@ -56,11 +56,11 @@ $metaData = new Physiotherapie($connection);
                     $url = basename($_SERVER["REQUEST_URI"]);
                     $bnt_type = "btn-link";
                     if ((empty($url) && $link == WEB_HOME) || ($link == $url)) {
-                        // activ link
+                        // active link
                         $bnt_type = "btn-primary";
                     }
                     echo("<li><a href='{$link}'>");
-                    echo("<button id='loginbutton' type='button' class='btn narbar-btn {$bnt_type}'>");
+                    echo("<button id='loginbutton' type='button' class='btn {$bnt_type}'>");
                     echo("{$link}</button>");
                     echo("</a></li>");
                 }
