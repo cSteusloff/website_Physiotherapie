@@ -349,3 +349,8 @@ footer li a:active {
         margin-bottom: 0px;
     }
 }
+
+a:active, a:visited, button:active, button:visited,btn-primary:active, btn-primary:focus, btn-link:active, btn-link:focus  {
+    border-color: #5cb85c;
+}
+
