@@ -18,3 +18,5 @@ define('DB_PORT', '3306');
 define('WEB_HOME','Startseite');
 // menu buttons
 define('WEB_LINKS','Startseite;Therapie;Praxis;Kontakt');
+// E-Mail Absender
+define('MAIL_RECEIVER','Christian.Steusloff@googlemail.com');
