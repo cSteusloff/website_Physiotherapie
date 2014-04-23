@@ -78,7 +78,7 @@ if (!isset($TPL)) {
                 <i class="fa fa-map-marker circle"></i><?=$metaData->getAddress()?><br>
                 <i class="fa fa-phone circle"></i><?=$metaData->getPhone()?><br>
                 <i class="fa fa-print circle"></i><?=$metaData->getFax()?><br>
-                <i class="fa fa-envelope-o circle"></i><?=$metaData->getMail()?><br>
+                <i class="fa fa-envelope-o circle"></i><a href="mailto:<?=$metaData->getMail()?>"><?=$metaData->getMail()?></a><br>
             </div>
 
             <div class="panel-heading">
